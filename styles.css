@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+
+/* Styles for the holder */
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+/* Ensure the holder takes the full viewport */
+.holder {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background-color: lightgray; /* Just for visibility */
+}
+
+/* Styles for item-1 */
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
